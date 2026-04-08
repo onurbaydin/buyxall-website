@@ -103,7 +103,7 @@ if (contactForm) {
       `Name: ${name}\nEmail: ${email}\n\n${message}`
     );
     const mailtoSubject = encodeURIComponent(subject);
-    window.location.href = `mailto:hello@buyxall.com?subject=${mailtoSubject}&body=${mailtoBody}`;
+    window.location.href = `mailto:info@buyxall.com?subject=${mailtoSubject}&body=${mailtoBody}`;
   });
 }
 
